@@ -8,6 +8,11 @@ import { CarProps } from "@types";
 import CustomButton from "./CustomButton";
 import CarDetails from "./CarDetails";
 
+
+interface CarCardProps {
+    car: CarProps;
+  }
+
 const CarCard = () => {
   return (
     <div>CarCard</div>
