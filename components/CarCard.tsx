@@ -8,15 +8,22 @@ import { CarProps } from "@types";
 import CustomButton from "./CustomButton";
 import CarDetails from "./CarDetails";
 
-
 interface CarCardProps {
-    car: CarProps;
-  }
-
-const CarCard = () => {
-  return (
-    <div>CarCard</div>
-  )
+  car: CarProps;
 }
 
-export default CarCard
+const CarCard = ({ car }: CarCardProps) => {
+  const { city_mpg, year, make, model, transmission, drive } = car;
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const carRent = calculateCarRent(city_mpg, year);
+
+  return (
+    <div className="car-card group">
+      
+    </div>
+  );
+};
+
+export default CarCard;
