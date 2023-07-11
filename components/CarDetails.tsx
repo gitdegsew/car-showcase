@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import Image from "next/image";
+import { Dialog, Transition } from "@headlessui/react";
 
 const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
   <>
