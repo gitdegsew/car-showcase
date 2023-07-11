@@ -22,6 +22,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
           enterTo='opacity-100'
           leave='ease-in duration-200'
           leaveFrom='opacity-100'
+          leaveTo='opacity-0'
           
         >
 
