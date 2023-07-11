@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Image from "next/image";
 
 const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
   <>
