@@ -44,6 +44,12 @@ const CarCard = ({ car }: CarCardProps) => {
             </p>
           </div>
 
+          <div className="car-card__icon">
+            <Image src="/tire.svg" width={20} height={20} alt="seat" />
+            <p className="car-card__icon-text">{drive.toUpperCase()}</p>
+          </div>
+          
+
           
         </div>
       
