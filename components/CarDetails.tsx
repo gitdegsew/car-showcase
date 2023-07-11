@@ -19,6 +19,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
           as={Fragment}
           enter='ease-out duration-300'
           enterFrom='opacity-0'
+          enterTo='opacity-100'
           
         >
 
