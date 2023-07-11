@@ -20,6 +20,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
           enter='ease-out duration-300'
           enterFrom='opacity-0'
           enterTo='opacity-100'
+          leave='ease-in duration-200'
           
         >
 
