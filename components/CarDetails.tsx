@@ -43,7 +43,12 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                   type='button'
                   className='absolute top-2 right-2 z-10 w-fit p-2 bg-primary-blue-100 rounded-full'
                   onClick={closeModal}
+                  
                 >
+                    <Image
+                    src='/close.svg'
+                   
+                  />
               
             </Transition.Child>
           </div>
