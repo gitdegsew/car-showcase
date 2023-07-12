@@ -31,6 +31,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
           <div className='flex min-h-full items-center justify-center p-4 text-center'>
             <Transition.Child
               as={Fragment}
+              enterFrom='opacity-0 scale-95'
               
             >
               
