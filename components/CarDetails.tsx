@@ -53,6 +53,8 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                     src='/close.svg'
                    
                   />
+                </button>
+
               
             </Transition.Child>
           </div>
