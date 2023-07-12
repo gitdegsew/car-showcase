@@ -48,6 +48,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                     <Image
                     alt='close'
                     width={20}
+                    className='object-contain'
                     src='/close.svg'
                    
                   />
