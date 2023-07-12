@@ -25,6 +25,9 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
           leaveTo='opacity-0'
           
         >
+            
+        </Transition.Child>
+
 
     </Transition>
   </>
