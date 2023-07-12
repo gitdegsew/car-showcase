@@ -54,6 +54,9 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                    
                   />
                 </button>
+                <div className='flex-1 flex flex-col gap-3'>
+                 
+                </div>
 
               
             </Transition.Child>
