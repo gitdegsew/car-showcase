@@ -87,6 +87,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                         {value}
 
                         </p>
+                        </div>
 
 
 
