@@ -78,6 +78,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                 </h2>
 
                 <div className='mt-3 flex flex-wrap gap-4'>
+                {Object.entries(car).map(([key, value]) => (
 
 
 
