@@ -89,6 +89,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                         </p>
                         </div>
 
+))}
 
 
                 </div>
