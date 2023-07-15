@@ -77,6 +77,9 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                 {car.make} {car.model}
                 </h2>
 
+                <div className='mt-3 flex flex-wrap gap-4'>
+
+
 
 
                 </div>
