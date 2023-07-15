@@ -85,6 +85,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                         </h4>
                         <p className='text-black-100 font-semibold'>
                         {value}
+                        <p className='text-black-100 font-semibold'>
 
 
 
