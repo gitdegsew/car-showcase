@@ -9,3 +9,4 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
     type={btnType || "button"}
     className={`custom-btn ${containerStyles}`}
     onClick={handleClick}
+    >
