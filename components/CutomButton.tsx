@@ -18,4 +18,5 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
           alt="arrow_left"
           fill
           className="object-contain"
+          />
 
