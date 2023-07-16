@@ -7,3 +7,4 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
     <button
     disabled={isDisabled}
     type={btnType || "button"}
+    className={`custom-btn ${containerStyles}`}
