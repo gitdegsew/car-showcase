@@ -21,6 +21,7 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
           />
       </div>
     )}
+  </button>
 
 
 
