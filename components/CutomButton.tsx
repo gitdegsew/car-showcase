@@ -16,4 +16,5 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
         <Image
           src={rightIcon}
           alt="arrow_left"
+          fill
 
