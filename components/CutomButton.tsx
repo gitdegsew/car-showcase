@@ -8,3 +8,4 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
     disabled={isDisabled}
     type={btnType || "button"}
     className={`custom-btn ${containerStyles}`}
+    onClick={handleClick}
