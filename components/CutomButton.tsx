@@ -1,3 +1,6 @@
 "use client";
 import Image from "next/image";
 import { CustomButtonProps } from "@types";
+
+
+const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, rightIcon, handleClick }: CustomButtonProps) => (
