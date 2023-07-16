@@ -11,4 +11,5 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
     onClick={handleClick}
     >
     <span className={`flex-1 ${textStyles}`}>{title}</span>
+    {rightIcon && (
 
