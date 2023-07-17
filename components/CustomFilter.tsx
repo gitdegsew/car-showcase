@@ -10,3 +10,6 @@ export default function CustomFilter({ title, options }: CustomFilterProps) {
     const newPathName = updateSearchParams(title, e.value.toLowerCase());
     router.push(newPathName);
 };
+
+return (
+
