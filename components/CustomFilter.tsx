@@ -29,6 +29,8 @@ return (
           </Listbox.Button>
           {/* Transition for displaying the options */}
           <Transition
+            as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
+
 
 
 
