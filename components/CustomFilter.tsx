@@ -25,6 +25,8 @@ return (
           {/* Button for the listbox */}
           <Listbox.Button className='custom-filter__btn'>
           <span className='block truncate'>{selected.title}</span>
+          <Image src='/chevron-up-down.svg' width={20} height={20} className='ml-4 object-contain' alt='chevron_up-down' />
+
 
 
 
