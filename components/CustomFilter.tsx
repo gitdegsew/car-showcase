@@ -17,6 +17,7 @@ return (
         value={selected}
         onChange={(e) => {
 
+            setSelected(e); // Update the selected option in state
 
 
 
