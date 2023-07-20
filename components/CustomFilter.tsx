@@ -35,6 +35,7 @@ return (
             leaveTo='opacity-0'
             >
             <Listbox.Options className='custom-filter__options'>
+              {/* Map over the options and display them as listbox options */}
 
 
 
