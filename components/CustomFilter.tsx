@@ -34,6 +34,7 @@ return (
             leaveFrom='opacity-100'
             leaveTo='opacity-0'
             >
+            <Listbox.Options className='custom-filter__options'>
 
 
 
