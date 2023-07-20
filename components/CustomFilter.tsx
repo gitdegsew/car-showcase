@@ -18,7 +18,7 @@ return (
         onChange={(e) => {
 
             setSelected(e); 
-            handleUpdateParams(e); // Update the URL search parameters and navigate to the new URL
+            handleUpdateParams(e); 
         }}
         >
         <div className='relative w-fit z-10'>
