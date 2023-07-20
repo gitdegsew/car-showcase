@@ -36,6 +36,7 @@ return (
             >
             <Listbox.Options className='custom-filter__options'>
               {/* Map over the options and display them as listbox options */}
+              {options.map((option) => (
 
 
 
