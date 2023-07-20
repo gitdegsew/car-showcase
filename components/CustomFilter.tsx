@@ -51,6 +51,7 @@ return (
                     <>
                       <span className={`block truncate ${selected ? "font-medium" : "font-normal"}`} >
                       {option.title}
+                      </span>
 
 
 
