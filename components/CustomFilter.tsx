@@ -42,6 +42,7 @@ return (
                   key={option.title}
                   className={({ active }) =>
                   `relative cursor-default select-none py-2 px-4 ${
+                    active ? "bg-primary-blue text-white" : "text-gray-900"
 
 
 
