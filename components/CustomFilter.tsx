@@ -45,6 +45,7 @@ return (
                     active ? "bg-primary-blue text-white" : "text-gray-900"
                 }`
             }
+            value={option}
 
 
 
