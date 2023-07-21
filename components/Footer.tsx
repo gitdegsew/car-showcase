@@ -13,3 +13,5 @@ const Footer = () => (
     Carhub 2023 <br />
     All Rights Reserved &copy;
     </p>
+    </div>
+    <div className="footer__links">
