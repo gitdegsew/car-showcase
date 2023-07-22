@@ -23,3 +23,4 @@ const Footer = () => (
                 <Link
                 key={link.title}
                 href={link.url}
+                className="text-gray-500"
