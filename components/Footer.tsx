@@ -24,3 +24,4 @@ const Footer = () => (
                 key={link.title}
                 href={link.url}
                 className="text-gray-500"
+                >
