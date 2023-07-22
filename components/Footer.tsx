@@ -15,3 +15,4 @@ const Footer = () => (
     </p>
     </div>
     <div className="footer__links">
+    {footerLinks.map((item) => (
