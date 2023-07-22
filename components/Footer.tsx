@@ -28,3 +28,4 @@ const Footer = () => (
                   {link.title}
                   </Link>
               ))}
+            </div>
