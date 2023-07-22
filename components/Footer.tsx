@@ -19,3 +19,4 @@ const Footer = () => (
           <div key={item.title} className="footer__link">
             <h3 className="font-bold">{item.title}</h3>
             <div className="flex flex-col gap-5">
+            {item.links.map((link) => (
