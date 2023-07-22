@@ -17,3 +17,4 @@ const Footer = () => (
     <div className="footer__links">
     {footerLinks.map((item) => (
           <div key={item.title} className="footer__link">
+            <h3 className="font-bold">{item.title}</h3>
