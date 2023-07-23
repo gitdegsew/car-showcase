@@ -44,6 +44,8 @@ const Footer = () => (
       </Link>
       <div className="footer__copyrights-link">
       <div className="footer__copyrights-link">
+      <div className="footer__copyrights-link">
+
 
 
 
