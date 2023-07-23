@@ -37,3 +37,5 @@ const Footer = () => (
       <p>@2023 CarHub. All rights reserved</p>
       <div className="footer__copyrights-link">
       <Link href="/" className="text-gray-500">
+      Privacy & Policy
+      Privacy & Policy
