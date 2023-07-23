@@ -41,3 +41,5 @@ const Footer = () => (
       Privacy & Policy
       </Link>
       </Link>
+      </Link>
+
