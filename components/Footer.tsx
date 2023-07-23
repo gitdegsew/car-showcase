@@ -45,6 +45,7 @@ const Footer = () => (
       <div className="footer__copyrights-link">
       <div className="footer__copyrights-link">
       <div className="footer__copyrights-link">
+      <Link href="/" className="text-gray-500">
 
 
 
