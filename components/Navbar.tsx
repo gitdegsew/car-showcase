@@ -18,4 +18,5 @@ const NavBar = () => (
           width={118}
           width={118}
           height={18}
+          className='object-contain'
 
