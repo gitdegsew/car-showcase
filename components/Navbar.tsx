@@ -21,3 +21,4 @@ const NavBar = () => (
           className='object-contain'
 
           />
+      </Link>
