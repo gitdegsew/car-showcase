@@ -13,4 +13,5 @@ const NavBar = () => (
     <Link href='/' className='flex justify-center items-center'>
     <Image
           src='/logo.svg'
+          src='/logo.svg'
 
