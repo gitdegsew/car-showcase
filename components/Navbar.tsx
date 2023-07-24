@@ -14,4 +14,5 @@ const NavBar = () => (
     <Image
           src='/logo.svg'
           src='/logo.svg'
+          alt='logo'
 
