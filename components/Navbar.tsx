@@ -15,4 +15,5 @@ const NavBar = () => (
           src='/logo.svg'
           src='/logo.svg'
           alt='logo'
+          width={118}
 
