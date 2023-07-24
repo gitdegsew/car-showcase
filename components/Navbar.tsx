@@ -17,4 +17,5 @@ const NavBar = () => (
           alt='logo'
           width={118}
           width={118}
+          height={18}
 
