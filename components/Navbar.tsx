@@ -10,6 +10,5 @@ const NavBar = () => (
       </Link>
 
       <CustomButton
-        containerStyles='text-primary-blue rounded-full bg-white min-w-[130px]'
       />
 )
