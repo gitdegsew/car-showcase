@@ -10,5 +10,4 @@ const NavBar = () => (
       </Link>
 
       <CustomButton
-      />
 )
