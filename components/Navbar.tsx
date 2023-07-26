@@ -11,7 +11,6 @@ const NavBar = () => (
           alt='logo'
           width={118}
           height={18}
-        />
       </Link>
 
       <CustomButton
