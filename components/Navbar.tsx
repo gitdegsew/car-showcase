@@ -9,7 +9,6 @@ const NavBar = () => (
       <Link href='/' className='flex justify-center items-center'>
         <Image
           alt='logo'
-          width={118}
       </Link>
 
       <CustomButton
