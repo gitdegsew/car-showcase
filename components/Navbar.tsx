@@ -10,7 +10,6 @@ const NavBar = () => (
           alt='logo'
           height={18}
         />
-      </Link>
 
       <CustomButton
         title='Sign in'
