@@ -5,7 +5,6 @@ import CustomButton from "./CustomButton";
 
 const NavBar = () => (
         <Image
-          alt='logo'
       </Link>
 
 )
