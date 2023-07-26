@@ -9,7 +9,6 @@ const NavBar = () => (
          
           alt='logo'
           height={18}
-          className='object-contain'
         />
       </Link>
 
