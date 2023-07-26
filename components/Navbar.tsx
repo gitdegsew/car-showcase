@@ -8,7 +8,6 @@ const NavBar = () => (
         <Image
          
           alt='logo'
-          width={118}
           height={18}
           className='object-contain'
         />
