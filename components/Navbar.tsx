@@ -8,5 +8,4 @@ const NavBar = () => (
           alt='logo'
       </Link>
 
-      <CustomButton
 )
