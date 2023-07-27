@@ -15,3 +15,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       src={"/magnifying-glass.svg"}
       alt={"magnifying glass"}
       width={40}
+      height={40}
