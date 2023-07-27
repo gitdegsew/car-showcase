@@ -12,3 +12,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   <button type='submit' className={`-ml-3 z-10 ${otherClasses}`}>
 
   <Image
+      src={"/magnifying-glass.svg"}
