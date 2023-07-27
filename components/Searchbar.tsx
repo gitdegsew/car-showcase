@@ -7,3 +7,4 @@ import { useRouter } from "next/navigation";
 
 
 import SearchManufacturer from "./SearchManufacturer";
+const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
