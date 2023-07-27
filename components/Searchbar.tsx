@@ -17,3 +17,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       width={40}
       height={40}
       className='object-contain'
+      />
