@@ -16,3 +16,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       alt={"magnifying glass"}
       width={40}
       height={40}
+      className='object-contain'
