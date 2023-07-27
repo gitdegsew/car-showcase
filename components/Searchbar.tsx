@@ -13,3 +13,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
 
   <Image
       src={"/magnifying-glass.svg"}
+      alt={"magnifying glass"}
