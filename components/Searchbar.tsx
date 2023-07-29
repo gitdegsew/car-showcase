@@ -18,3 +18,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       height={40}
       className='object-contain'
       />
+  </button>
