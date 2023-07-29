@@ -26,4 +26,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   const router = useRouter();
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    e.preventDefault();
 
