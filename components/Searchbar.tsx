@@ -32,3 +32,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
     if (manufacturer.trim() === "" && model.trim() === "") {
         if (manufacturer.trim() === "" && model.trim() === "") {
             return alert("Please provide some input");
+        }
