@@ -45,3 +45,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
     // Update or delete the 'model' search parameter based on the 'model' value
 
     if (model) {
+      searchParams.set("model", model);
+
