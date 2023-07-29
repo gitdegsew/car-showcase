@@ -19,3 +19,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       className='object-contain'
       />
   </button>
+  const SearchBar = () => {
