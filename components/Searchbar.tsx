@@ -23,4 +23,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   const [manufacturer, setManuFacturer] = useState("");
   const [model, setModel] = useState("");
   const [model, setModel] = useState("");
+  const router = useRouter();
 
