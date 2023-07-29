@@ -29,3 +29,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
     e.preventDefault();
 
     e.preventDefault();
+    if (manufacturer.trim() === "" && model.trim() === "") {
