@@ -22,3 +22,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   const SearchBar = () => {
   const [manufacturer, setManuFacturer] = useState("");
   const [manufacturer, setManuFacturer] = useState("");
+  const [manufacturer, setManuFacturer] = useState("");
