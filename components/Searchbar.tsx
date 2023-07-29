@@ -40,3 +40,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
 
     // Create a new URLSearchParams object using the current URL search parameters
     // Create a new URLSearchParams object using the current URL search parameters
+    const searchParams = new URLSearchParams(window.location.search);
