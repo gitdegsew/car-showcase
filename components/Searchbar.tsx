@@ -34,3 +34,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
             return alert("Please provide some input");
         }
         updateSearchParams(model.toLowerCase(), manufacturer.toLowerCase());
+    };
