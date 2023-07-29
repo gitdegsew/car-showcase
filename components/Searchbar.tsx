@@ -46,4 +46,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
 
     if (model) {
       searchParams.set("model", model);
+    } else {
 
