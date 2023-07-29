@@ -35,3 +35,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
         }
         updateSearchParams(model.toLowerCase(), manufacturer.toLowerCase());
     };
+
+  const updateSearchParams = (model: string, manufacturer: string) => {
