@@ -39,3 +39,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   const updateSearchParams = (model: string, manufacturer: string) => {
 
     // Create a new URLSearchParams object using the current URL search parameters
+    // Create a new URLSearchParams object using the current URL search parameters
