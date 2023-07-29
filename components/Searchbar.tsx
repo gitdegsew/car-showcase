@@ -49,3 +49,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
     } else {
         searchParams.delete("model");
 
+    }
