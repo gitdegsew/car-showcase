@@ -24,4 +24,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   const [model, setModel] = useState("");
   const [model, setModel] = useState("");
   const router = useRouter();
+  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
 
