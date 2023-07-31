@@ -66,3 +66,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
     };
     return (
         <form className='searchbar' onSubmit={handleSearch}>
+      <div className='searchbar__item'>
