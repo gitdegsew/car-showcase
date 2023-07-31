@@ -62,3 +62,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
     // Update or delete the 'manufacturer' search parameter based on the 'manufacturer' value
     if (manufacturer) {
         const newPathname = `${window.location.pathname}?${searchParams.toString()}`;
+        router.push(newPathname);
