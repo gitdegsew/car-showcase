@@ -77,3 +77,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       </div>
       <Image
       src='/model-icon.png'
+      width={25}
