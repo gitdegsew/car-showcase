@@ -96,4 +96,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       </form>
       );
     };
+    export default SearchBar;
 
