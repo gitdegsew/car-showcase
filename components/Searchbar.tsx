@@ -63,3 +63,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
     if (manufacturer) {
         const newPathname = `${window.location.pathname}?${searchParams.toString()}`;
         router.push(newPathname);
+    };
