@@ -92,4 +92,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       />
       <SearchButton otherClasses='sm:hidden' />
       </div>
+      <SearchButton otherClasses='max-sm:hidden' />
 
