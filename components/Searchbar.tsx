@@ -55,3 +55,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
     if (manufacturer) {
         if (manufacturer) {
             searchParams.set("manufacturer", manufacturer);
+            searchParams.set("manufacturer", manufacturer);
