@@ -82,4 +82,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       className='absolute w-[20px] h-[20px] ml-4'
       alt='car model'
       />
+      <input
 
