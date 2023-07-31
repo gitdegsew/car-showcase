@@ -64,3 +64,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
         const newPathname = `${window.location.pathname}?${searchParams.toString()}`;
         router.push(newPathname);
     };
+    return (
