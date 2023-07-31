@@ -72,3 +72,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
           setManuFacturer={setManuFacturer}
           />
         <SearchButton otherClasses='sm:hidden' />
+        </div>
