@@ -65,3 +65,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
         router.push(newPathname);
     };
     return (
+        <form className='searchbar' onSubmit={handleSearch}>
