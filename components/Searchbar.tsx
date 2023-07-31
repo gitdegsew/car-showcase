@@ -69,3 +69,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       <div className='searchbar__item'>
       <SearchManufacturer
           manufacturer={manufacturer}
+          setManuFacturer={setManuFacturer}
