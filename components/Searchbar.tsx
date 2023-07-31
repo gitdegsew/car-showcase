@@ -87,4 +87,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       name='model'
       value={model}
       onChange={(e) => setModel(e.target.value)}
+      placeholder='Tiguan...'
 
