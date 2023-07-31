@@ -70,3 +70,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       <SearchManufacturer
           manufacturer={manufacturer}
           setManuFacturer={setManuFacturer}
+          />
