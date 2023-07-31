@@ -84,4 +84,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       />
       <input
       type='text'
+      name='model'
 
