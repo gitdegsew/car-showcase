@@ -90,4 +90,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       placeholder='Tiguan...'
       className='searchbar__input'
       />
+      <SearchButton otherClasses='sm:hidden' />
 
