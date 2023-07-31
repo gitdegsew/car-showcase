@@ -91,4 +91,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       className='searchbar__input'
       />
       <SearchButton otherClasses='sm:hidden' />
+      </div>
 
