@@ -95,4 +95,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       <SearchButton otherClasses='max-sm:hidden' />
       </form>
       );
+    };
 
