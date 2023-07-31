@@ -88,4 +88,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       value={model}
       onChange={(e) => setModel(e.target.value)}
       placeholder='Tiguan...'
+      className='searchbar__input'
 
