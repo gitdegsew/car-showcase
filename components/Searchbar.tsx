@@ -60,3 +60,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
             searchParams.delete("model");
         }
     // Update or delete the 'manufacturer' search parameter based on the 'manufacturer' value
+    if (manufacturer) {
