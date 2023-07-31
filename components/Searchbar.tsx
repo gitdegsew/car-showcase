@@ -83,4 +83,5 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
       alt='car model'
       />
       <input
+      type='text'
 
