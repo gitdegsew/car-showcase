@@ -58,3 +58,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
             searchParams.set("manufacturer", manufacturer);
         } else {
             searchParams.delete("model");
+        }
