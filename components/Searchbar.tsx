@@ -75,3 +75,4 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
         </div>
         </div>
       </div>
+      <Image
