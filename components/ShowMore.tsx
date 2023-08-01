@@ -11,3 +11,5 @@ import { CustomButton } from "@components";
 
 const ShowMore = ({ pageNumber, isNext }: ShowMoreProps) => {
     const router = useRouter();
+
+  const handleNavigation = () => {
