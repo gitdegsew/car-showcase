@@ -8,3 +8,5 @@ import { updateSearchParams } from "@utils";
 import { CustomButton } from "@components";
 
 import { CustomButton } from "@components";
+
+const ShowMore = ({ pageNumber, isNext }: ShowMoreProps) => {
