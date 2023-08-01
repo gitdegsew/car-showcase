@@ -15,3 +15,4 @@ const ShowMore = ({ pageNumber, isNext }: ShowMoreProps) => {
   const handleNavigation = () => {
     // Calculate the new limit based on the page number and navigation type
     // Calculate the new limit based on the page number and navigation type
+    const newLimit = (pageNumber + 1) * 10;
