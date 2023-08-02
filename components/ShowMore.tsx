@@ -38,3 +38,4 @@ return (
     </div>
   );
 };
+export default ShowMore;
