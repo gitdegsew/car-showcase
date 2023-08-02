@@ -29,3 +29,4 @@ return (
     <div className="w-full flex-center gap-5 mt-10">
       {!isNext && (
         <CustomButton
+        btnType="button"
