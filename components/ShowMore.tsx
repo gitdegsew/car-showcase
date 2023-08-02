@@ -30,3 +30,4 @@ return (
       {!isNext && (
         <CustomButton
         btnType="button"
+        title="Show More"
