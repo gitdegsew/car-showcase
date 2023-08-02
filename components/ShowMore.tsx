@@ -25,7 +25,6 @@ return (
       {!isNext && (
         <CustomButton
         containerStyles="bg-primary-blue rounded-full text-white"
-        handleClick={handleNavigation}
         />
         )}
     </div>
