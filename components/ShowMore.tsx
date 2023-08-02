@@ -31,3 +31,4 @@ return (
         <CustomButton
         btnType="button"
         title="Show More"
+        containerStyles="bg-primary-blue rounded-full text-white"
