@@ -15,5 +15,6 @@ export {
     Hero,
   CarCard,
   CustomButton,
+  Footer,
     
   };
