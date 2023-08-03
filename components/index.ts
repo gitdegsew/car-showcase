@@ -17,5 +17,6 @@ export {
   CustomButton,
   Footer,
   NavBar,
+  ShowMore,
     
   };
