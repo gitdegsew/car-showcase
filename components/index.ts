@@ -14,5 +14,6 @@ import Hero from "./Hero";
 export {
     Hero,
   CarCard,
+  CustomButton,
     
   };
