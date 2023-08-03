@@ -16,5 +16,6 @@ export {
   CarCard,
   CustomButton,
   Footer,
+  NavBar,
     
   };
