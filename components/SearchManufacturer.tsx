@@ -6,3 +6,5 @@ import { manufacturers } from "@constants";
 import { SearchManuFacturerProps } from "@types";
 
 const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacturerProps) => {
+
+  const [query, setQuery] = useState("");
