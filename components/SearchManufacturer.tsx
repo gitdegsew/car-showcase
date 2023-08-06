@@ -8,3 +8,4 @@ import { SearchManuFacturerProps } from "@types";
 const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacturerProps) => {
 
   const [query, setQuery] = useState("");
+  const filteredManufacturers =
