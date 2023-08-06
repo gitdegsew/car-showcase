@@ -12,3 +12,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
   query === ""
   ? manufacturers
   item
+  .toLowerCase()
