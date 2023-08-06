@@ -11,3 +11,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
   const filteredManufacturers =
   query === ""
   ? manufacturers
+  item
