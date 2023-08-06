@@ -9,3 +9,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
 
   const [query, setQuery] = useState("");
   const filteredManufacturers =
+  query === ""
