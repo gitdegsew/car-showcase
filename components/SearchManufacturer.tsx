@@ -14,3 +14,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
   item
   .toLowerCase()
   .replace(/\s+/g, "")
+  .includes(query.toLowerCase().replace(/\s+/g, ""))
