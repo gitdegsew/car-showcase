@@ -19,3 +19,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
   );
 
   return (
+    <div className='search-manufacturer'>
