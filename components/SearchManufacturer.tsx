@@ -31,3 +31,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
           </Combobox.Button>
           {/* Input field for searching */}
          
+          <Combobox.Input
