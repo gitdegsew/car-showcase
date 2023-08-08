@@ -32,23 +32,9 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
               alt='car logo'
             />
           </Combobox.Button>
-
-          {/* Input field for searching */}
           <Combobox.Input
-            className='search-manufacturer__input'
-            displayValue={(item: string) => item}
-            onChange={(event) => setQuery(event.target.value)} // Update the search query when the input changes
-            placeholder='Volkswagen...'
-          />
 
-          {/* Transition for displaying the options */}
-          <Transition
-            as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
-            leave='transition ease-in duration-100'
-            leaveFrom='opacity-100'
-            leaveTo='opacity-0'
-            afterLeave={() => setQuery("")} // Reset the search query after the transition completes
-          >
+          
            
                 ))
               )}
