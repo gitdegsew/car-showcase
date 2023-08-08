@@ -33,3 +33,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
          
           <Combobox.Input
             className='search-manufacturer__input'
+            displayValue={(item: string) => item}
