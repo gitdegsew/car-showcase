@@ -38,3 +38,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
             placeholder='Volkswagen...'
             />
           {/* Transition for displaying the options */}
+          <Transition
