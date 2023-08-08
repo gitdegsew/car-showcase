@@ -29,4 +29,5 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
               alt='car logo'
             />
           </Combobox.Button>
+          {/* Input field for searching */}
          
