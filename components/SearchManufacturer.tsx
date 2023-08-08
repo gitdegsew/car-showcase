@@ -40,6 +40,8 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
             />
 
           {/* Transition for displaying the options */}
+          <Transition
+
           
            
                 ))
