@@ -41,6 +41,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
 
           {/* Transition for displaying the options */}
           <Transition
+            as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
 
           
            
