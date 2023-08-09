@@ -56,6 +56,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                 value={query}
                 className='search-manufacturer__option'
                 >
+                  Create "{query}"
 
           
            
