@@ -55,6 +55,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                 <Combobox.Option
                 value={query}
                 className='search-manufacturer__option'
+                >
 
           
            
