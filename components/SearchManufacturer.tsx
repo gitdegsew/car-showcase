@@ -46,6 +46,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
             leaveFrom='opacity-100'
             leaveTo='opacity-0'
             afterLeave={() => setQuery("")} // Reset the search query after the transition completes
+            >
 
           
            
