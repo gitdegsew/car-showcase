@@ -47,6 +47,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
             leaveTo='opacity-0'
             afterLeave={() => setQuery("")} // Reset the search query after the transition completes
             >
+            <Combobox.Options
 
           
            
