@@ -57,6 +57,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                 className='search-manufacturer__option'
                 >
                   Create "{query}"
+                  </Combobox.Option>
 
           
            
