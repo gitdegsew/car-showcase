@@ -54,6 +54,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
               {filteredManufacturers.length === 0 && query !== "" ? (
                 <Combobox.Option
                 value={query}
+                className='search-manufacturer__option'
 
           
            
