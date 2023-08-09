@@ -52,6 +52,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
               static
               >
               {filteredManufacturers.length === 0 && query !== "" ? (
+                <Combobox.Option
 
           
            
