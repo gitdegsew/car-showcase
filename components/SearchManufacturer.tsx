@@ -28,3 +28,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
               className='ml-4'
               alt='car logo'
             />
+          </Combobox.Button>
