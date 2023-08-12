@@ -25,5 +25,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
               src='/car-logo.svg'
               width={20}
               height={20}
-              className='ml-4'
             />
