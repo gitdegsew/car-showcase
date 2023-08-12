@@ -26,5 +26,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
               width={20}
               height={20}
               className='ml-4'
-              alt='car logo'
             />
