@@ -20,4 +20,3 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
 
   return (
     <div className='search-manufacturer'>
-      <Combobox value={manufacturer} onChange={setManuFacturer}>
