@@ -29,3 +29,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
               alt='car logo'
             />
           </Combobox.Button>
+          </Combobox.Button>
