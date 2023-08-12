@@ -23,4 +23,3 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
       <Combobox value={manufacturer} onChange={setManuFacturer}>
       <div className='relative w-full'>
           {/* Button for the combobox. Click on the icon to see the complete dropdown */}
-          <Combobox.Button className='absolute top-[14px]'>
