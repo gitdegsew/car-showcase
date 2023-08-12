@@ -22,5 +22,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
     <div className='search-manufacturer'>
       <Combobox value={manufacturer} onChange={setManuFacturer}>
       <Image
-              src='/car-logo.svg'
             />
