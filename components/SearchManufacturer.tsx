@@ -24,5 +24,4 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
       <Image
               src='/car-logo.svg'
               width={20}
-              height={20}
             />
