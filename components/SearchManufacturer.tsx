@@ -72,6 +72,8 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                     {({ selected, active }) => (
 
 <>
+<span className={`block truncate ${selected ? "font-medium" : "font-normal"}`}>
+
           
            
                 ))
