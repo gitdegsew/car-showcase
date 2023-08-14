@@ -60,6 +60,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                   </Combobox.Option>
               ) : (
                 filteredManufacturers.map((item) => (
+                    <Combobox.Option
 
           
            
