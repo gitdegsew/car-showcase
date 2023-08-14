@@ -73,8 +73,12 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
 
 <>
 <span className={`block truncate ${selected ? "font-medium" : "font-normal"}`}>
+{item}
 
+</span>
           
+                        {/* Show an active blue background color if the option is selected */}
+                        {selected ? (
            
                 ))
               )}
