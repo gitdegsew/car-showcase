@@ -69,6 +69,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                 }
                 value={item}
                 >
+                    {({ selected, active }) => (
 
           
            
