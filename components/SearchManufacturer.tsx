@@ -79,6 +79,8 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
           
                         {/* Show an active blue background color if the option is selected */}
                         {selected ? (
+                        {selected ? (
+
            
                 ))
               )}
