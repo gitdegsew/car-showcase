@@ -65,6 +65,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                     className={({ active }) =>
                     `relative search-manufacturer__option ${
                         active ? "bg-primary-blue text-white" : "text-gray-900"
+                    }`
 
           
            
