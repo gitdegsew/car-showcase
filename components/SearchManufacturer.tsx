@@ -80,7 +80,12 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                         {/* Show an active blue background color if the option is selected */}
                         {selected ? (
                         {selected ? (
-
+                            as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
+                            leave='transition ease-in duration-100'
+                            leaveFrom='opacity-100'
+                            leaveTo='opacity-0'
+                            afterLeave={() => setQuery("")} // Reset the search query after the transition completes
+                          >
            
                 ))
               )}
