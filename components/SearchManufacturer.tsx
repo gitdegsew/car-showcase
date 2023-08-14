@@ -61,6 +61,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
               ) : (
                 filteredManufacturers.map((item) => (
                     <Combobox.Option
+                    key={item}
 
           
            
