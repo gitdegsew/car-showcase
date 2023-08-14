@@ -66,6 +66,8 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                     `relative search-manufacturer__option ${
                         active ? "bg-primary-blue text-white" : "text-gray-900"
                     }`
+                }
+                value={item}
 
           
            
