@@ -63,6 +63,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                     <Combobox.Option
                     key={item}
                     className={({ active }) =>
+                    `relative search-manufacturer__option ${
 
           
            
