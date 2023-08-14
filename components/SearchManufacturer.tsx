@@ -68,6 +68,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                     }`
                 }
                 value={item}
+                >
 
           
            
