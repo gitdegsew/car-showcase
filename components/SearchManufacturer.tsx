@@ -77,6 +77,15 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
           handleUpdateParams(e); // Update the URL search parameters and navigate to the new URL
         }}
       >item}
+      <Listbox.Options className='custom-filter__options'>
+              {/* Map over the options and display them as listbox options */}
+              {options.map((option) => (
+                <Listbox.Option
+                  key={option.title}
+                  className={({ active }) =>
+                    `relative cursor-default select-none py-2 px-4 ${
+                      active ? "bg-primary-blue text-white" : "text-gray-900"
+                    }`
                   >
                                            {selected ? (
 
