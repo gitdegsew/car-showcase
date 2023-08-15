@@ -70,15 +70,13 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                   Create "{query}"
                 </Combobox.Option>
               ) : (
-                filteredManufacturers.map((item) => (
-                  <Combobox.Option
-                    key={item}
-                    className={({ active }) =>
-                      `relative search-manufacturer__option ${
-                        active ? "bg-primary-blue text-white" : "text-gray-900"
-                      }`
-                    }
-                    value={item}
+                <Listbox
+        value={selected}
+        onChange={(e) => {
+          setSelected(e); // Update the selected option in state
+          handleUpdateParams(e); // Update the URL search parameters and navigate to the new URL
+        }}
+      >item}
                   >
                                            {selected ? (
 
