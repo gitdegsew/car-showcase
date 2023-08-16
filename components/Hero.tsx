@@ -6,3 +6,4 @@ import { CustomButton } from "@components";
 
 
 const Hero = () => {
+  const handleScroll = () => {
