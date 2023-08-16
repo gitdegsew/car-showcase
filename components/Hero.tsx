@@ -10,3 +10,4 @@ const Hero = () => {
     const nextSection = document.getElementById("discover");
     if (nextSection) {
       nextSection.scrollIntoView({ behavior: "smooth" });
+    }
