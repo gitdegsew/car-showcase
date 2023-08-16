@@ -11,3 +11,4 @@ const Hero = () => {
     if (nextSection) {
       nextSection.scrollIntoView({ behavior: "smooth" });
     }
+  };
