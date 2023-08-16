@@ -8,3 +8,4 @@ import { CustomButton } from "@components";
 const Hero = () => {
   const handleScroll = () => {
     const nextSection = document.getElementById("discover");
+    if (nextSection) {
