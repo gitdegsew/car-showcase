@@ -1,9 +1,8 @@
-import React from 'react'
-
 const Hero = () => {
-  return (
-    <div className='hero' >Comment</div>
-  )
-}
+  const handleScroll = () => {
+    const nextSection = document.getElementById("discover");
 
-export default Hero
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
