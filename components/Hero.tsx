@@ -12,3 +12,5 @@ const Hero = () => {
       nextSection.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  return (
