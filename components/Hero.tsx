@@ -27,3 +27,11 @@ const Hero = () => {
       nextSection.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+const handleScroll = () => {
+    const nextSection = document.getElementById("discover");
+
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
