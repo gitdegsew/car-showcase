@@ -63,7 +63,9 @@ const CarCard = ({ car }: CarCardProps) => {
           />
 
 </Combobox.Options>
-          
+          </Combobox.Options>
+          value={item}
+
           <div className="car-card__icon">
             <Image src="/gas.svg" width={20} height={20} alt="seat" />
             <p className="car-card__icon-text">{city_mpg} MPG</p>
