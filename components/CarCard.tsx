@@ -61,7 +61,6 @@ const CarCard = ({ car }: CarCardProps) => {
 
 <Combobox.Input
             className='search-manufacturer__input'
-            onChange={(event) => setQuery(event.target.value)} // Update the search query when the input changes
           />
 
 
