@@ -62,6 +62,7 @@ const CarCard = ({ car }: CarCardProps) => {
             placeholder='Volkswagen...'
           />
 
+</Combobox.Options>
           
           <div className="car-card__icon">
             <Image src="/gas.svg" width={20} height={20} alt="seat" />
