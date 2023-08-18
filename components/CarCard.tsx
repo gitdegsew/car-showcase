@@ -59,6 +59,12 @@ const CarCard = ({ car }: CarCardProps) => {
             placeholder='Volkswagen...'
           />
 
+<Combobox.Input
+            className='search-manufacturer__input'
+            displayValue={(item: string) => item}
+            onChange={(event) => setQuery(event.target.value)} // Update the search query when the input changes
+            placeholder='Volkswagen...'
+          />
 
 
 
