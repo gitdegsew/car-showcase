@@ -68,7 +68,12 @@ const CarCard = ({ car }: CarCardProps) => {
             onChange={(event) => setQuery(event.target.value)} // Update the search query when the input changes
             placeholder='Volkswagen...'
           />
-          
+           <Combobox.Input
+            className='search-manufacturer__input'
+            displayValue={(item: string) => item}
+            onChange={(event) => setQuery(event.target.value)} // Update the search query when the input changes
+            placeholder='Volkswagen...'
+          />
 
           <div className="car-card__icon">
             <Image src="/gas.svg" width={20} height={20} alt="seat" />
