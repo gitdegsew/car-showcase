@@ -37,31 +37,12 @@ const CarCard = ({ car }: CarCardProps) => {
         <Image src={generateCarImageUrl(car)} alt='car model' fill priority className='object-contain' />
       </div>
 
-      <div className='relative flex w-full mt-2'>
-        <div className='flex group-hover:invisible w-full justify-between text-grey'>
-          <div className='flex flex-col justify-center items-center gap-2'>
-            <Image src='/steering-wheel.svg' width={20} height={20} alt='steering wheel' />
-            <p className='text-[14px] leading-[17px]'>
-              {transmission === "a" ? "Automatic" : "Manual"}
-            </p>
-          </div>
-
-          <Combobox.Input
-            className='search-manufacturer__input'
-            displayValue={(item: string) => item}
-            onChange={(event) => setQuery(event.target.value)} // Update the search query when the input changes
-            placeholder='Volkswagen...'
-          />
- <Combobox.Input
-            className='search-manufacturer__input'
-            displayValue={(item: string) => item}
-            onChange={(event) => setQuery(event.target.value)} // Update the search query when the input changes
-            placeholder='Volkswagen...'
-          />
-
-<Combobox.Input
-            className='search-manufacturer__input'
-          />
+      <Image
+              src='/car-logo.svg'
+              width={20}
+              height={20}
+              className='ml-4'
+              a
 
 
 
