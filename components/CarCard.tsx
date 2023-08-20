@@ -53,6 +53,12 @@ const CarCard = ({ car }: CarCardProps) => {
     className={`custom-btn ${containerStyles}`}
     onClick={handleClick}
   >
+     <Image
+          src={rightIcon}
+          alt="arrow_left"
+          fill
+          className="object-contain"
+        />
 };
 
 
