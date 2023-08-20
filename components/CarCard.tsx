@@ -72,6 +72,7 @@ const CarCard = ({ car }: CarCardProps) => {
           />
             </Listbox.Options>
 
+</Listbox.Options>
 
           <div className="car-card__icon">
             <Image src="/gas.svg" width={20} height={20} alt="seat" />
