@@ -92,6 +92,13 @@ leaveTo='opacity-0'
           </div>
         </div>
 
+        <Transition
+            as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
+            leave='transition ease-in duration-100'
+            leaveFrom='opacity-100'
+            leaveTo='opacity-0'
+          >
+
 <span className={`block truncate ${selected ? "font-medium" : "font-normal"}`} >
 {option.title}
 </span>
