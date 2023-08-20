@@ -80,7 +80,12 @@ leave='transition ease-in duration-100'
 leaveFrom='opacity-100'
 leaveTo='opacity-0'
 >
-
+<Transition
+            as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
+            leave='transition ease-in duration-100'
+            leaveFrom='opacity-100'
+            leaveTo='opacity-0'
+          >
           <div className="car-card__icon">
             <Image src="/gas.svg" width={20} height={20} alt="seat" />
             <p className="car-card__icon-text">{city_mpg} MPG</p>
