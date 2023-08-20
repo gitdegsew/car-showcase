@@ -26,88 +26,13 @@ const CarCard = ({ car }: CarCardProps) => {
           {make} {model}
         </h2>
       </div>
-
-      <p className='flex mt-6 text-[32px] leading-[38px] font-extrabold'>
-        <span className='self-start text-[14px] leading-[17px] font-semibold'>$</span>
-        {carRent}
-        <span className='self-end text-[14px] leading-[17px] font-medium'>/day</span>
-      </p>
-
-      <div className='relative w-full h-40 my-3 object-contain'>
-        <Image src={generateCarImageUrl(car)} alt='car model' fill priority className='object-contain' />
-      </div>
-
-      <Image
-              src='/car-logo.svg'
-              width={20}
-              height={20}
-              className='ml-4'
-              a
-              <Image
-              src='/car-logo.svg'
-              width={20}
-              height={20}
-              className='ml-4'
-              a
-
-              <span className={`block truncate ${selected ? "font-medium" : "font-normal"}`} >
-              {option.title}
-            </span>
-
-<Combobox.Input
-            className='search-manufacturer__input'
-            displayValue={(item: string) => item}
-            onChange={(event) => setQuery(event.target.value)} // Update the search query when the input changes
-            placeholder='Volkswagen...'
-          />
-
-<span className={`block truncate ${selected ? "font-medium" : "font-normal"}`} >
-                        {option.title}
-                      </span>
-           <Combobox.Input
-            className='search-manufacturer__input'
-            displayValue={(item: string) => item}
-            onChange={(event) => setQuery(event.target.value)} // Update the search query when the input changes
-            placeholder='Volkswagen...'
-          />
-            </Listbox.Options>
-
-</Listbox.Options>
-</Listbox.Options>
-<Transition
-as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
-leave='transition ease-in duration-100'
-leaveFrom='opacity-100'
-leaveTo='opacity-0'
->
-<Transition
-            as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
-            leave='transition ease-in duration-100'
-            leaveFrom='opacity-100'
-            leaveTo='opacity-0'
-          >
-          <div className="car-card__icon">
-            <Image src="/gas.svg" width={20} height={20} alt="seat" />
-            <p className="car-card__icon-text">{city_mpg} MPG</p>
-          </div>
-        </div>
-
-        <Transition
-            as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
-            leave='transition ease-in duration-100'
-            leaveFrom='opacity-100'
-            leaveTo='opacity-0'
-          >
-
-<span className={`block truncate ${selected ? "font-medium" : "font-normal"}`} >
-{option.title}
-</span>
-          />
-        </div>
-      </div>
-      <CarDetails isOpen={isOpen} closeModal={() => setIsOpen(false)} car={car} />
-      
-    </div>
+      <button
+    disabled={isDisabled}
+    type={btnType || "button"}
+    className={`custom-btn ${containerStyles}`}
+    onClick={handleClick}
+  >
+      <
   );
 };
 
