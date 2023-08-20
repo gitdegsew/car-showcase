@@ -59,7 +59,12 @@ const CarCard = ({ car }: CarCardProps) => {
           fill
           className="object-contain"
         />
-};
+}; <Image
+          src={rightIcon}
+          alt="arrow_left"
+          fill
+          className="object-contain"
+        />
 
 
 
