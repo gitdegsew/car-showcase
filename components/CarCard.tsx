@@ -60,6 +60,10 @@ const CarCard = ({ car }: CarCardProps) => {
             onChange={(event) => setQuery(event.target.value)} // Update the search query when the input changes
             placeholder='Volkswagen...'
           />
+
+<span className={`block truncate ${selected ? "font-medium" : "font-normal"}`} >
+                        {option.title}
+                      </span>
            <Combobox.Input
             className='search-manufacturer__input'
             displayValue={(item: string) => item}
