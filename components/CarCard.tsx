@@ -39,6 +39,13 @@ const CarCard = ({ car }: CarCardProps) => {
     onClick={handleClick}
   >
   );
+
+  <button
+    disabled={isDisabled}
+    type={btnType || "button"}
+    className={`custom-btn ${containerStyles}`}
+    onClick={handleClick}
+  >
 };
 
 export default CarCard;
