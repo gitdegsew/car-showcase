@@ -32,7 +32,12 @@ const CarCard = ({ car }: CarCardProps) => {
     className={`custom-btn ${containerStyles}`}
     onClick={handleClick}
   >
-      <
+      < <button
+    disabled={isDisabled}
+    type={btnType || "button"}
+    className={`custom-btn ${containerStyles}`}
+    onClick={handleClick}
+  >
   );
 };
 
