@@ -11,3 +11,5 @@ import bannerthree from "@/images/bannerthree.jpg";
 import bannerthree from "@/images/bannerthree.jpg";
 import BannerText from "./BannerText";
 import { PiCaretLeftLight, PiCaretRightLight } from "react-icons/pi";
+
+const Banner = () => {
