@@ -16,3 +16,4 @@ const Banner = () => {
     const NextArrow = (props: any) => {
         const NextArrow = (props: any) => {
             const NextArrow = (props: any) => {
+                const NextArrow = (props: any) => {
