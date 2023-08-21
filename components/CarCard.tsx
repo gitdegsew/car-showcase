@@ -15,3 +15,4 @@ import { PiCaretLeftLight, PiCaretRightLight } from "react-icons/pi";
 const Banner = () => {
     const NextArrow = (props: any) => {
         const NextArrow = (props: any) => {
+            const NextArrow = (props: any) => {
