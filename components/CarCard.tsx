@@ -13,3 +13,4 @@ import BannerText from "./BannerText";
 import { PiCaretLeftLight, PiCaretRightLight } from "react-icons/pi";
 
 const Banner = () => {
+    const NextArrow = (props: any) => {
