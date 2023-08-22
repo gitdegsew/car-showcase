@@ -61,6 +61,12 @@ const NextArrow = (props: any) => {
               </li>
             </Link>
 
+
+            <Link href={"/about"}>
+              <li className="hover:text-orange-500 cursor-pointer duration-200">
+                About
+              </li>
+            </Link>
 <Image
             src={bannertwo}
             alt="bannertwo"
