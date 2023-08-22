@@ -42,15 +42,10 @@ const NextArrow = (props: any) => {
     prevArrow: <PrevArrow />,
   };
 
-var settings = {
-    dots: false,
-    infinite: true,
-    autoplay: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-  };
+<Image
+            src={bannertwo}
+            alt="bannertwo"
+            className="w-full h-full relative"
+          />
       </div>
     );
