@@ -65,7 +65,11 @@ const NextArrow = (props: any) => {
             <span className="text-orange-600">January 31, 2022</span>
             <span className="text-orange-600">January 31, 2022</span>
             <span className="text-orange-600">January 31, 2022</span>
-
+            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+              <span className="socialLink">
+                <BsLinkedin />
+              </span>
+            </a>
 
             <Link href={"/about"}>
               <li className="hover:text-orange-500 cursor-pointer duration-200">
