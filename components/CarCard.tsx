@@ -48,6 +48,12 @@ const NextArrow = (props: any) => {
             className="w-full h-full relative"
           />
 
+<Link href={"/about"}>
+              <li className="hover:text-orange-500 cursor-pointer duration-200">
+                About
+              </li>
+            </Link>
+
 <Image
             src={bannertwo}
             alt="bannertwo"
