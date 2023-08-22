@@ -41,5 +41,16 @@ const NextArrow = (props: any) => {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
+
+var settings = {
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+  };
       </div>
     );
