@@ -31,5 +31,15 @@ const NextArrow = (props: any) => {
         onClick={onClick}
       >
         <PiCaretRightLight />
+        var settings = {
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+  };
       </div>
     );
