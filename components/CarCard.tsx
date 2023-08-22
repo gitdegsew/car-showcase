@@ -53,5 +53,15 @@ const NextArrow = (props: any) => {
             alt="bannertwo"
             className="w-full h-full relative"
           />
+
+<Image
+            src={bannertwo}
+            alt="bannertwo"
+            className="w-full h-full relative"
+          />
+
+
+
+
       </div>
     );
