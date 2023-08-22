@@ -64,6 +64,7 @@ const NextArrow = (props: any) => {
 
             <span className="text-orange-600">January 31, 2022</span>
             <span className="text-orange-600">January 31, 2022</span>
+            <span className="text-orange-600">January 31, 2022</span>
 
 
             <Link href={"/about"}>
