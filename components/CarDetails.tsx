@@ -54,6 +54,12 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                 New Arrival
               </span>
             )}
+
+{item?.isNew && (
+              <span className="absolute top-2 right-2 font-medium text-xs py-1 px-3 rounded-full bg-white group-hover:bg-orange-600 group-hover:text-white duration-200">
+                New Arrival
+              </span>
+            )}
 );
 const startArray = Array.from({ length: item?.rating }, (_, index) => (
 
