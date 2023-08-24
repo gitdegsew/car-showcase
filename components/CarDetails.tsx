@@ -28,6 +28,13 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
               height={500}
               className="w-full h-full object-cover group-hover:scale-110 duration-200 rounded-t-lg"
             />
+             <Image
+              src={item?.image}
+              alt="product image"
+              width={500}
+              height={500}
+              className="w-full h-full object-cover group-hover:scale-110 duration-200 rounded-t-lg"
+            />
       
 );
 const startArray = Array.from({ length: item?.rating }, (_, index) => (
