@@ -17,5 +17,6 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
     
       
 );
+const startArray = Array.from({ length: item?.rating }, (_, index) => (
 
 export default CarDetails;
