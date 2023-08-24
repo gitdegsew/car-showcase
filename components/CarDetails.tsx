@@ -48,6 +48,8 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                 New Arrival
               </span>
             )}
+
+            
 );
 const startArray = Array.from({ length: item?.rating }, (_, index) => (
 
