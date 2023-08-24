@@ -38,5 +38,9 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
               <p>{calculatePercentage(item?.price, item?.oldPrice)}% off</p>
             </div>
 
+            <p className="font-semibold">
+                <FormattedPrice amount={item?.price} />
+              </p>
+
 
 export default CarDetails;
