@@ -21,7 +21,13 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
     <div className="w-full rounded-lg overflow-hidden">
     <Link href={{ pathname: "/product", query: { _id: item?._id } }}>
     <Link href={{ pathname: "/product", query: { _id: item?._id } }}>
-
+    <Image
+              src={item?.image}
+              alt="product image"
+              width={500}
+              height={500}
+              className="w-full h-full object-cover group-hover:scale-110 duration-200 rounded-t-lg"
+            />
       
 );
 const startArray = Array.from({ length: item?.rating }, (_, index) => (
