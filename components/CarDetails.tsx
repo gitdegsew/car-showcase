@@ -16,6 +16,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
   const startArray = Array.from({ length: item?.rating }, (_, index) => (
   return (
     
+    <div className="w-full rounded-lg overflow-hidden">
       
 );
 const startArray = Array.from({ length: item?.rating }, (_, index) => (
