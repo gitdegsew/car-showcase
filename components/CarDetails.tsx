@@ -20,6 +20,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
 
     <div className="w-full rounded-lg overflow-hidden">
     <Link href={{ pathname: "/product", query: { _id: item?._id } }}>
+    <Link href={{ pathname: "/product", query: { _id: item?._id } }}>
 
       
 );
