@@ -42,5 +42,9 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                 <FormattedPrice amount={item?.price} />
               </p>
 
+              <p className="font-semibold">
+                <FormattedPrice amount={item?.price} />
+              </p>
+
 
 export default CarDetails;
