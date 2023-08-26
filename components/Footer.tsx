@@ -2,3 +2,4 @@
 import {
     BsYoutube,
     BsGithub,
+    BsLinkedin,
