@@ -14,3 +14,4 @@ import Image from "next/image";
 
 const Footer = () => {
     return (
+        <div className="w-full bg-darkText text-slate-100">
