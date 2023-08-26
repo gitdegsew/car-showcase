@@ -4,3 +4,4 @@ import {
     BsGithub,
     BsLinkedin,
     BsFacebook,
+    BsReddit,
