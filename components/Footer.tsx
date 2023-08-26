@@ -16,3 +16,4 @@ const Footer = () => {
     return (
         <div className="w-full bg-darkText text-slate-100">
       <Container className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="flex flex-col gap-y-4">
