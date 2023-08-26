@@ -11,3 +11,5 @@ import Container from "./Container";
 import Logo from "./Logo";
 import Link from "next/link";
 import Image from "next/image";
+
+const Footer = () => {
