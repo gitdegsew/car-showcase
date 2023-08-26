@@ -7,3 +7,4 @@ import {
     BsReddit,
 } from "react-icons/bs";
 import payment from "@/images/payment.png";
+import Container from "./Container";
