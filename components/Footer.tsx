@@ -10,3 +10,4 @@ import payment from "@/images/payment.png";
 import Container from "./Container";
 import Logo from "./Logo";
 import Link from "next/link";
+import Image from "next/image";
