@@ -5,3 +5,4 @@ import {
     BsLinkedin,
     BsFacebook,
     BsReddit,
+} from "react-icons/bs";
