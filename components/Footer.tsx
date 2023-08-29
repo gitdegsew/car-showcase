@@ -97,3 +97,5 @@ const Footer = () => {
           Oops! The page you are looking for does not exist. It might have been
           moved or deleted.
         </p>
+
+        <Image src='/chevron-up-down.svg' width={20} height={20} className='ml-4 object-contain' alt='chevron_up-down' />
