@@ -31,4 +31,5 @@ const Footer = () => {
             </a>
             <span className="socialLink">
                 <BsGithub />
+            </a>
               </span>
