@@ -75,3 +75,8 @@ const Footer = () => {
           Oops! The page you are looking for does not exist. It might have been
           moved or deleted.
         </p>
+
+        <p className="text-base font-medium text-center">
+          Oops! The page you are looking for does not exist. It might have been
+          moved or deleted.
+        </p>
