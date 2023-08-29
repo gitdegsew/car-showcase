@@ -54,3 +54,14 @@ const Footer = () => {
               </span>
               <span className="text-orange-600">January 31, 2022</span>
             </li>
+            <Image
+            src={payment}
+            alt="payment banner image"
+            className="w-full h-10 object-cover"
+          />
+
+<Image
+            src={payment}
+            alt="payment banner image"
+            className="w-full h-10 object-cover"
+          />
