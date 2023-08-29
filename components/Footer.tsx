@@ -18,3 +18,9 @@ const Footer = () => {
       <Container className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
       <div className="flex flex-col gap-y-4">
       <Logo />
+      <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa in
+            sint incidunt, minima quos voluptates, nobis autem laborum earum est
+            pariatur aperiam. Delectus consectetur maxime quidem veniam,
+            corporis.
+          </p>
