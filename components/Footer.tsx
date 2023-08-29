@@ -29,3 +29,6 @@ const Footer = () => {
                 <BsYoutube />
               </span>
             </a>
+            <span className="socialLink">
+                <BsGithub />
+              </span>
