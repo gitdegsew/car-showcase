@@ -24,3 +24,8 @@ const Footer = () => {
             pariatur aperiam. Delectus consectetur maxime quidem veniam,
             corporis.
           </p>
+          <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+              <span className="socialLink">
+                <BsYoutube />
+              </span>
+            </a>
