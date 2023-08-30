@@ -25,26 +25,17 @@ const NavBar = () => (
                   </div>
 
                   <div className='relative w-full h-40 bg-pattern bg-cover bg-center rounded-lg'>
-                    <Image src={generateCarImageUrl(car)} alt='car model' fill priority className='object-contain' />
-                  </div>
                   <Image
                     src='/close.svg'
                     alt='close'
                     width={20}
                     height={20}
                     className='object-contain'
-                  /> <Image
-                  src='/close.svg'
-                  alt='close'
-                  width={20}
-                  height={20}
-                  className='object-contain'
-                /> <Image
-                src='/close.svg'
-                alt='close'
-                width={20}
-                height={20}
-                className='object-contain'
+                  />
+                   <div className='flex-1 flex flex-col gap-3'>
+                  <div className='relative w-full h-40 bg-pattern bg-cover bg-center rounded-lg'>
+                    <Image src={generateCarImageUrl(car)} alt='car model' fill priority className='object-contain' />
+                  </div>
               />
 
 
