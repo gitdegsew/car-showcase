@@ -33,7 +33,13 @@ const NavBar = () => (
                     width={20}
                     height={20}
                     className='object-contain'
-                  />
+                  /> <Image
+                  src='/close.svg'
+                  alt='close'
+                  width={20}
+                  height={20}
+                  className='object-contain'
+                />
 
 
 
