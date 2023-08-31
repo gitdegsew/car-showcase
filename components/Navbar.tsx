@@ -13,3 +13,4 @@ const NavBar = () => (
           height={18}
           className='object-contain'
         />
+      </Link>
