@@ -22,4 +22,5 @@ const NavBar = () => (
         />
     </nav>
     </header>
+);
 
