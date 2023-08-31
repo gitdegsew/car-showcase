@@ -17,4 +17,5 @@ const NavBar = () => (
 
       <CustomButton
         title='Sign in'
+        btnType='button'
 
