@@ -20,6 +20,7 @@ const Hero = () => {
       Find, book, rent a car—quick and super easy!
       </h1>
       <p className="hero__subtitle">
+      Streamline your car rental experience with our effortless booking
       
     </div>
   );
