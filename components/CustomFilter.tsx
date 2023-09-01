@@ -24,6 +24,8 @@ const Hero = () => {
       process.
       </p>
       <CustomButton
+          title="Explore Cars"
+
       
     </div>
   );
