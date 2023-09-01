@@ -19,6 +19,7 @@ const Hero = () => {
       <h1 className="hero__title">
       Find, book, rent a car—quick and super easy!
       </h1>
+      <p className="hero__subtitle">
       
     </div>
   );
