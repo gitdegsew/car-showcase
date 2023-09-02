@@ -50,6 +50,7 @@ const Hero = () => {
                 value={query}
                 className='search-manufacturer__option'
                 >
+                  Create "{query}"
 
       
     </div>
