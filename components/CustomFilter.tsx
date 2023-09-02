@@ -48,6 +48,7 @@ const Hero = () => {
               {filteredManufacturers.length === 0 && query !== "" ? (
                 <Combobox.Option
                 value={query}
+                className='search-manufacturer__option'
 
       
     </div>
