@@ -52,6 +52,7 @@ const Hero = () => {
                 >
                   Create "{query}"
                   </Combobox.Option>
+                  value={query}
 
       
     </div>
