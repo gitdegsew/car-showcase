@@ -49,6 +49,7 @@ const Hero = () => {
                 <Combobox.Option
                 value={query}
                 className='search-manufacturer__option'
+                >
 
       
     </div>
