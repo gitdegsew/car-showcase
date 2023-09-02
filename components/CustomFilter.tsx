@@ -36,6 +36,7 @@ const Hero = () => {
       <div className="hero__image-overlay" />
       <Transition
             as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
+            leave='transition ease-in duration-100'
 
       
     </div>
