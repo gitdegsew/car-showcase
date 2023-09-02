@@ -51,6 +51,7 @@ const Hero = () => {
                 className='search-manufacturer__option'
                 >
                   Create "{query}"
+                  </Combobox.Option>
 
       
     </div>
