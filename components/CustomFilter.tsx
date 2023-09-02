@@ -46,6 +46,7 @@ const Hero = () => {
               static
               >
               {filteredManufacturers.length === 0 && query !== "" ? (
+                <Combobox.Option
 
       
     </div>
