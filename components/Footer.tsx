@@ -24,4 +24,5 @@ const Footer = () => {
         />
       )}
     </div>
+  );
        
