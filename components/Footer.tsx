@@ -17,7 +17,6 @@ const Footer = () => {
     const router = useRouter();
 
   const handleNavigation = () => {
-    // Calculate the new limit based on the page number and navigation type
 
     
     return (
