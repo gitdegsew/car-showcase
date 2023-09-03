@@ -18,4 +18,5 @@ const Footer = () => {
       {!isNext && (
         <CustomButton
         btnType="button"
+        title="Show More"
        
