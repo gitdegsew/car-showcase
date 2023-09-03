@@ -41,6 +41,8 @@ const Hero = () => {
           manufacturer={manufacturer}
           setManuFacturer={setManuFacturer}
           />
+        <SearchButton otherClasses='sm:hidden' />
+        </div>
 
 
 
