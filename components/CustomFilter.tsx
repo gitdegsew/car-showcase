@@ -39,6 +39,7 @@ const Hero = () => {
     <div className='searchbar__item'>
     <SearchManufacturer
           manufacturer={manufacturer}
+          setManuFacturer={setManuFacturer}
 
 
 
