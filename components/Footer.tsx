@@ -23,4 +23,5 @@ const Footer = () => {
         handleClick={handleNavigation}
         />
       )}
+    </div>
        
