@@ -21,4 +21,5 @@ const Footer = () => {
         title="Show More"
         containerStyles="bg-primary-blue rounded-full text-white"
         handleClick={handleNavigation}
+        />
        
