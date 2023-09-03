@@ -52,6 +52,7 @@ const Hero = () => {
           alt='car model'
           />
         <input
+          type='text'
 
 
 
