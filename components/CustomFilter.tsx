@@ -48,6 +48,7 @@ const Hero = () => {
           src='/model-icon.png'
           width={25}
           height={25}
+          className='absolute w-[20px] h-[20px] ml-4'
 
 
 
