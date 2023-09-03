@@ -34,6 +34,11 @@ const Hero = () => {
       <Image src="/hero.png" alt="hero" fill className="object-contain" />
       </div>
       <div className="hero__image-overlay" />
+
+    <form className='searchbar' onSubmit={handleSearch}>
+
+
+
       <Transition
             as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
             leave='transition ease-in duration-100'
