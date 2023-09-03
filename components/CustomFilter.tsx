@@ -49,6 +49,7 @@ const Hero = () => {
           width={25}
           height={25}
           className='absolute w-[20px] h-[20px] ml-4'
+          alt='car model'
 
 
 
