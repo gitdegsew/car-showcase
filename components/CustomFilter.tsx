@@ -37,6 +37,7 @@ const Hero = () => {
 
     <form className='searchbar' onSubmit={handleSearch}>
     <div className='searchbar__item'>
+    <SearchManufacturer
 
 
 
