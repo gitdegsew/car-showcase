@@ -43,6 +43,7 @@ const Hero = () => {
           />
         <SearchButton otherClasses='sm:hidden' />
         </div>
+        <div className='searchbar__item'>
 
 
 
