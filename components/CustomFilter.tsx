@@ -53,6 +53,7 @@ const Hero = () => {
           />
         <input
           type='text'
+          name='model'
 
 
 
