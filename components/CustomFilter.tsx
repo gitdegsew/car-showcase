@@ -40,6 +40,7 @@ const Hero = () => {
     <SearchManufacturer
           manufacturer={manufacturer}
           setManuFacturer={setManuFacturer}
+          />
 
 
 
