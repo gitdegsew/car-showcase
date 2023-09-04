@@ -80,7 +80,6 @@ const SearchBar = () => {
           transition={{ duration: 0.7 }}
         ></motion.div>
 
-          manufacturer={manufacturer}
           setManuFacturer={setManuFacturer}
         />
         <SearchButton otherClasses='sm:hidden' />
