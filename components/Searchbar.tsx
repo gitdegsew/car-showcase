@@ -64,6 +64,7 @@ const SearchBar = () => {
     <div className="hidden lg:inline-block absolute top-0 left-0 w-full h-full">
     <Container className="flex h-full flex-col gap-y-6 justify-center">
     <motion.h2
+          initial={{ y: 30, opacity: 0 }}
 
       <div className='searchbar__item'>
         <SearchManufacturer
