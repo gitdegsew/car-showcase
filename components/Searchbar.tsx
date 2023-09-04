@@ -77,7 +77,6 @@ const SearchBar = () => {
         >
           Stock up on sportswear and limited edition collections on our <br />
           awesome mid-season sale.
-        </motion.p>
           transition={{ duration: 0.7 }}
         ></motion.div>
 
