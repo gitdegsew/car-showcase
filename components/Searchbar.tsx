@@ -90,7 +90,6 @@ const SearchBar = () => {
             {/* add to cart button */}
             <button
               // onClick={() =>
-                  //   toast.success(
               //   )
               // }
               className="bg-orange-600 px-4 py-2 text-sm tracking-wide rounded-full text-slate-100 hover:bg-orange-800 hover:text-white duration-200"
