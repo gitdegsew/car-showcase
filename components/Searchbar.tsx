@@ -97,6 +97,10 @@ const SearchBar = () => {
                 <FormattedPrice amount={item?.oldPrice} />
               </p>
 
+              <p className="text-slate-500 line-through text-sm">
+                <FormattedPrice amount={item?.oldPrice} />
+              </p>
+
 
       </div>
       <div className='searchbar__item'>
