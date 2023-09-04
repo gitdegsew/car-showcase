@@ -65,6 +65,7 @@ const SearchBar = () => {
     <Container className="flex h-full flex-col gap-y-6 justify-center">
     <motion.h2
           initial={{ y: 30, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
 
       <div className='searchbar__item'>
         <SearchManufacturer
