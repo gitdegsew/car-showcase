@@ -80,7 +80,6 @@ const SearchBar = () => {
           transition={{ duration: 0.7 }}
         ></motion.div>
 
-      <div className='searchbar__item'>
           manufacturer={manufacturer}
           setManuFacturer={setManuFacturer}
         />
