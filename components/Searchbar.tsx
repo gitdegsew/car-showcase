@@ -68,6 +68,21 @@ const SearchBar = () => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
           className="text-7xl font-bold text-white"
+          >
+            <motion.p
+          initial={{ y: 40, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6 }}
+          className="text-lg text-slate-100"
+        >
+          Stock up on sportswear and limited edition collections on our <br />
+          awesome mid-season sale.
+        </motion.p>
+        <motion.div
+          initial={{ y: 50, opacity: 0 }}
+          transition={{ duration: 0.7 }}
+          className="flex gap-x-4 mt-2"
+        ></motion.div>
 
       <div className='searchbar__item'>
         <SearchManufacturer
