@@ -81,7 +81,7 @@ const SearchBar = () => {
         ></motion.div>
 
         />
-        <SearchButton otherClasses='sm:hidden' />
+        
       </div>
       <div className='searchbar__item'>
         <Image
