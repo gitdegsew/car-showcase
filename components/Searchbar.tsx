@@ -81,7 +81,6 @@ const SearchBar = () => {
         ></motion.div>
 
       <div className='searchbar__item'>
-        <SearchManufacturer
           manufacturer={manufacturer}
           setManuFacturer={setManuFacturer}
         />
