@@ -75,7 +75,6 @@ const SearchBar = () => {
           transition={{ duration: 0.6 }}
           className="text-lg text-slate-100"
         >
-          Stock up on sportswear and limited edition collections on our <br />
           awesome mid-season sale.
         ></motion.div>
 
