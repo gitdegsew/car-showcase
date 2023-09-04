@@ -86,7 +86,17 @@ const SearchBar = () => {
         <p>{calculatePercentage(item?.price, item?.oldPrice)}% off</p>
         <p>{calculatePercentage(item?.price, item?.oldPrice)}% off</p>
 
-        
+        <div className="flex items-center justify-between">
+            {/* add to cart button */}
+            <button
+              // onClick={() =>
+              //   dispatch(addToCart(item)) &&
+              //   toast.success(
+              //     `${item?.title.substring(0, 15)} added successfully!`
+              //   )
+              // }
+              className="bg-orange-600 px-4 py-2 text-sm tracking-wide rounded-full text-slate-100 hover:bg-orange-800 hover:text-white duration-200"
+            ></button>
       </div>
       <div className='searchbar__item'>
         <Image
