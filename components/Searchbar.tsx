@@ -79,7 +79,6 @@ const SearchBar = () => {
           awesome mid-season sale.
         </motion.p>
           transition={{ duration: 0.7 }}
-          className="flex gap-x-4 mt-2"
         ></motion.div>
 
       <div className='searchbar__item'>
