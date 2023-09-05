@@ -84,7 +84,6 @@ const SearchBar = () => {
         <div className="flex items-center justify-between">
             <button
             ></button>
-                <FormattedPrice amount={item?.oldPrice} />
 
                 <FormattedPrice amount={item?.oldPrice} />
               </p>
