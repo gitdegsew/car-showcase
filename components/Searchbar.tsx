@@ -72,7 +72,6 @@ const SearchBar = () => {
             <motion.p
           initial={{ y: 40, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6 }}
           className="text-lg text-slate-100"
         >
           awesome mid-season sale.
