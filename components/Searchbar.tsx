@@ -85,7 +85,6 @@ const SearchBar = () => {
             <button
             ></button>
 
-              </p>
 
 
       </div>
