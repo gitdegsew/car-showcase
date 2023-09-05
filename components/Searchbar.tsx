@@ -80,7 +80,6 @@ const SearchBar = () => {
 
         />
 
-        <p>{calculatePercentage(item?.price, item?.oldPrice)}% off</p>
 
         <div className="flex items-center justify-between">
             {/* add to cart button */}
