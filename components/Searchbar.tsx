@@ -71,7 +71,6 @@ const SearchBar = () => {
           >
             <motion.p
           initial={{ y: 40, opacity: 0 }}
-          className="text-lg text-slate-100"
         >
           awesome mid-season sale.
         ></motion.div>
