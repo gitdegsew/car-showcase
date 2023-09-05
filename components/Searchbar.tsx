@@ -82,7 +82,6 @@ const SearchBar = () => {
 
 
         <div className="flex items-center justify-between">
-            {/* add to cart button */}
             <button
             ></button>
                 <FormattedPrice amount={item?.oldPrice} />
