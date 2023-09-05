@@ -83,7 +83,6 @@ const SearchBar = () => {
 
         <div className="flex items-center justify-between">
             <button
-            ></button>
 
 
 
