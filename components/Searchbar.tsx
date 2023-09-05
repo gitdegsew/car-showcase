@@ -90,7 +90,6 @@ const SearchBar = () => {
             {/* add to cart button */}
             <button
             ></button>
-            <p className="text-slate-500 line-through text-sm">
                 <FormattedPrice amount={item?.oldPrice} />
               </p><p className="text-slate-500 line-through text-sm">
                 <FormattedPrice amount={item?.oldPrice} />
