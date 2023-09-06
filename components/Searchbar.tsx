@@ -71,6 +71,7 @@ const SearchBar = () => {
           className="text-7xl font-bold text-white"
           className="text-7xl font-bold text-white"
 
+          className="text-7xl font-bold text-white"
 
             <motion.p
           initial={{ y: 40, opacity: 0 }}
