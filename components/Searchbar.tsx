@@ -73,6 +73,7 @@ const SearchBar = () => {
           className="text-7xl font-bold text-white"
           <p>{calculatePercentage(item?.price, item?.oldPrice)}% off</p>
           className="text-7xl font-bold text-white"
+          className="text-7xl font-bold text-white"
 
             <motion.p
           initial={{ y: 40, opacity: 0 }}
