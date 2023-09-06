@@ -39,6 +39,7 @@ const Hero = () => {
 
         <div className="hero__image-overlay" />
         <div className="hero__image-overlay" />
+        <div className="hero__image-overlay" />
       </div>
     </div>
   );
