@@ -31,7 +31,6 @@ const Hero = () => {
           title="Explore Cars"
           containerStyles="bg-primary-blue text-white rounded-full mt-10"
           Streamline your car rental experience with our effortless booking
-          handleClick={handleScroll}
         />
 
       </div>
