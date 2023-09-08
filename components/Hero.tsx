@@ -33,7 +33,6 @@ const Hero = () => {
           Streamline your car rental experience with our effortless booking
           handleClick={handleScroll}
         />
-      <div className="hero__image-container">
 
       </div>
       <div className="hero__image-container">
