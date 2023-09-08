@@ -18,7 +18,6 @@ const Hero = () => {
       <div className="flex-1 pt-36 padding-x">
         </h1>
 
-          process.
 
         <CustomButton
         />
