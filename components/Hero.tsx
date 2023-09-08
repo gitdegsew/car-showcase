@@ -24,7 +24,6 @@ const Hero = () => {
           Streamline your car rental experience with our effortless booking
           process.
           <div className="flex-1 pt-36 padding-x">
-      <div className="flex-1 pt-36 padding-x">
 
         <CustomButton
         />
