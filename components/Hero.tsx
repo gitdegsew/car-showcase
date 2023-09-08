@@ -36,7 +36,6 @@ const Hero = () => {
 
       </div>
       <div className="hero__image-container">
-        </div>
 
       </div>
     </div>
