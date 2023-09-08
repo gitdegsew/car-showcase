@@ -28,7 +28,6 @@ const Hero = () => {
       <div className="flex-1 pt-36 padding-x">
 
         <CustomButton
-          title="Explore Cars"
         />
 
       </div>
