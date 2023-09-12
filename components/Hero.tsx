@@ -16,9 +16,13 @@ const Hero = () => {
   return (
     <div className="hero">
 
+<FormattedPrice amount={item?.oldPrice} />
 
         <CustomButton
         />
+        <p className="font-semibold">
+                <FormattedPrice amount={item?.price} />
+              </p>
 
       </div>
 
