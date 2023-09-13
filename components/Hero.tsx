@@ -31,7 +31,6 @@ const Hero = () => {
               <p className="font-semibold">
               
             </p>
-            <p className="font-semibold">
           </p>
           <p className="font-semibold">
         </p>
