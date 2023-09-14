@@ -40,7 +40,6 @@ const Hero = () => {
               
               <p>{calculatePercentage(item?.price, item?.oldPrice)}% off</p>
             </div>
-            <p>{calculatePercentage(item?.price, item?.oldPrice)}% off</p>
           </div>
         </div>
 
