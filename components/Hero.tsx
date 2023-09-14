@@ -46,7 +46,6 @@ const Hero = () => {
           </div>
           <div className="border-[1px] border-orange-600 py-1 px-4 rounded-full text-xs">
         </div>
-      </div>
 
       </div>
     
