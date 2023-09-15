@@ -26,7 +26,6 @@ const Hero = () => {
                 <FormattedPrice amount={item?.price} />
                 <FormattedPrice amount={item?.price} />
                 <FormattedPrice amount={item?.price} />
-                <FormattedPrice amount={item?.price} />
               </p>
 
       </div>
