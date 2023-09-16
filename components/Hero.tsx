@@ -66,7 +66,6 @@ const Hero = () => {
               </p>
               <p className="font-semibold">
                 <FormattedPrice amount={item?.price} />
-              </p>
           </div>
         </div>
 
