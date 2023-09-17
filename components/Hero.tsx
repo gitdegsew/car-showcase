@@ -53,6 +53,7 @@ const Hero = () => {
               </p>
         </div>
             <div className="flex items-center gap-x-2">
+                <FormattedPrice amount={item?.oldPrice} />
 
 
           <div className="flex items-center justify-between">
