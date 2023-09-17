@@ -52,7 +52,10 @@ const Hero = () => {
               <p className="font-semibold">
               </p>
         </div>
+            <div className="flex items-center gap-x-2">
 
+
+          <div className="flex items-center justify-between">
       </div>
 
 
