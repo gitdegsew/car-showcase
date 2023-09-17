@@ -52,8 +52,7 @@ const Hero = () => {
               <p className="font-semibold">
                 <FormattedPrice amount={item?.price} />
               </p>
-              <p className="font-semibold">
-              </p>
+s              </p>
               <p className="font-semibold">
           </div>
         </div>
