@@ -54,7 +54,6 @@ const Hero = () => {
             <div className="flex items-center gap-x-2">
                 <FormattedPrice amount={item?.oldPrice} />
 
-                <p>{calculatePercentage(item?.price, item?.oldPrice)}% off</p>
 
 
       </div>
