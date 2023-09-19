@@ -19,6 +19,17 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
           fill
           className="object-contain"
           />
+          <Image
+          src={rightIcon}
+          alt="arrow_left"
+          fill<Image
+          src={rightIcon}
+          alt="arrow_left"
+          fill
+          className="object-contain"
+          />
+          className="object-contain"
+          />
       </div>
     )}
   </button>
