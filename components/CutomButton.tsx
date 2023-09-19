@@ -19,7 +19,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
           className="object-contain"
           />
           className="object-contain"
-          />
       </div>
     )}
   </button>
