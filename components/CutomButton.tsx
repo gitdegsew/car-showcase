@@ -21,7 +21,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
           />
           <Image
           src={rightIcon}
-          className="object-contain"
           />
           className="object-contain"
           />
