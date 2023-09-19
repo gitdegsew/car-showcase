@@ -15,7 +15,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
       <div className="relative w-6 h-6">
         <Image
         <div className="flex items-center justify-between">
-          <p>{calculatePercentage(item?.price, item?.oldPrice)}% off</p>
         </div>
           </p>
         </div>
