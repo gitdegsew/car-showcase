@@ -15,7 +15,8 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
     {rightIcon && (
       <div className="relative w-6 h-6">
         <Image
-        <div className="flex items-center justify-between">
+    <span className={`flex-1 ${textStyles}`}>{title}</span>
+    <div className="flex items-center justify-between">
         <div className="flex items-center justify-between">
         <div className="flex items-center justify-between">
         <div className="flex items-center justify-between">
