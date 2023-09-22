@@ -23,7 +23,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
     <span className={`flex-1 ${textStyles}`}>{title}</span>
         </div>
           </p>
-        <div className="flex items-center justify-between">
         </div>
     )}
   </button>
