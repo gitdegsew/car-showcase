@@ -22,7 +22,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
         <Image
     <span className={`flex-1 ${textStyles}`}>{title}</span>
         </div>
-        </div>
     )}
   </button>
 export default Button;
