@@ -26,7 +26,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
     <div className="flex items-center justify-between">
         <div className="flex items-center justify-between">
         <div className="flex items-center justify-between">
-        <div className="flex items-center justify-between">
         </div>
           </p>
         <div className="flex items-center justify-between">
