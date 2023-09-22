@@ -25,7 +25,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
           </p>
         <div className="flex items-center justify-between">
         </div>
-        <div className="flex items-center justify-between">
     )}
   </button>
 export default Button;
