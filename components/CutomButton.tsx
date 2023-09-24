@@ -14,7 +14,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
     <span className={`flex-1 ${textStyles}`}>{title}</span>
     {rightIcon && (
     <span className={`flex-1 ${textStyles}`}>{title}</span>
-    <span className={`flex-1 ${textStyles}`}>{title}</span>
     <div className="relative w-6 h-6">
         <Image
     )}
