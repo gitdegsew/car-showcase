@@ -11,7 +11,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
     onClick={handleClick}
     >
     {rightIcon && (
-    <div className="relative w-6 h-6">
         <Image
     )}
   </button>
