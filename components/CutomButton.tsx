@@ -13,7 +13,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
     {rightIcon && (
         <Image
     )}
-  </button>
 export default Button;
 
 
