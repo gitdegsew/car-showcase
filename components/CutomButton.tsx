@@ -29,7 +29,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
     <FormattedPrice amount={item?.oldPrice} />
   </p>
   <p className="font-semibold">
-    <FormattedPrice amount={item?.price} />
   </p>
 </div>
 </div>
