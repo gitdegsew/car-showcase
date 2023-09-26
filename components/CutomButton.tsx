@@ -28,7 +28,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
   </p>
   </p>
 </div>
-</div>
 <button
   // onClick={() =>
   //   )
