@@ -26,7 +26,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
 </div>
   <p className="text-slate-500 line-through text-sm">
   </p>
-  <p className="font-semibold">
   </p>
 </div>
 </div>
