@@ -33,7 +33,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
   </p>
 </div>
 </div>
-<div className="flex items-center justify-between">
 {/* add to cart button */}
 <button
   // onClick={() =>
