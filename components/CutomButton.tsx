@@ -26,7 +26,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
 </div>
 <div className="flex items-center gap-x-2">
   <p className="text-slate-500 line-through text-sm">
-    <FormattedPrice amount={item?.oldPrice} />
   </p>
   <p className="font-semibold">
   </p>
