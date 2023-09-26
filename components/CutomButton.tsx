@@ -45,7 +45,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
   className="bg-orange-600 px-4 py-2 text-sm tracking-wide rounded-full text-slate-100 hover:bg-orange-800 hover:text-white duration-200"
 >
   add to cart
-</button>
 {/* star icons */}
 <div className="flex items-center gap-x-1">{startArray}</div>
 </div>
