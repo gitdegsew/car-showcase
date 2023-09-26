@@ -50,7 +50,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
 <div className="flex items-center gap-x-1">{startArray}</div>
 </div>
 </div>
-</div>
 
 
 
