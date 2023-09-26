@@ -27,7 +27,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
   <p className="text-slate-500 line-through text-sm">
   </p>
 <button
-  // onClick={() =>
   //   )
   // }
 s>
