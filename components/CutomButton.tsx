@@ -30,7 +30,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
   //   )
   // }
 s>
-{/* star icons */}
 </div>
 </div>
 
