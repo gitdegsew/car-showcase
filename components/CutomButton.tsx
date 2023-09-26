@@ -24,7 +24,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
     </div>
 
 </div>
-<div className="flex items-center gap-x-2">
   <p className="text-slate-500 line-through text-sm">
   </p>
   <p className="font-semibold">
