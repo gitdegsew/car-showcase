@@ -38,7 +38,6 @@ const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, right
 <button
   // onClick={() =>
   //   dispatch(addToCart(item)) &&
-  //   toast.success(
   //     `${item?.title.substring(0, 15)} added successfully!`
   //   )
   // }
