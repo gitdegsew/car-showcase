@@ -57,6 +57,5 @@ const Hero = () => {
             <li className="flex flex-col">
               <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
                 Where Music Is Headed Next
-              <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
 };
 
