@@ -61,6 +61,5 @@ const Hero = () => {
               <span className="text-orange-600">January 31, 2022</span>
             </li>
               <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
-              </span>
 };
 
