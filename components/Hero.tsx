@@ -52,7 +52,6 @@ const Hero = () => {
               </p>
         </div>
             <div className="flex items-center gap-x-2">
-                <FormattedPrice amount={item?.oldPrice} />
                 <ul className="text-sm font-light mt-2 flex flex-col gap-y-2">
             <li className="flex flex-col">
                 Where Music Is Headed Next
