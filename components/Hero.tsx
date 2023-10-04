@@ -67,7 +67,6 @@ const Hero = () => {
               <span className="text-orange-600">January 31, 2022</span>
             </li>
             <li className="flex flex-col">
-              <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
                 Where Music Is Headed Next
               </span>
               <span className="text-orange-600">January 31, 2022</span>
