@@ -31,7 +31,6 @@ const Hero = () => {
               </p>
             </div>
               </p>
-              <p className="font-semibold">
               </p>
 
               <p className="font-semibold">
