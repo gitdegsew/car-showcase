@@ -28,7 +28,6 @@ const Hero = () => {
                 <FormattedPrice amount={item?.oldPrice} />
               </p>
               <p className="font-semibold">
-                <FormattedPrice amount={item?.price} />
               </p>
             </div>
               </p>
