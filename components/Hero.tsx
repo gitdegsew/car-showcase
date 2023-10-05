@@ -52,7 +52,6 @@ const Hero = () => {
               </p>
         </div>
             <div className="flex items-center gap-x-2">
-            <li className="flex flex-col">
                 Where Music Is Headed Next
 };
 
