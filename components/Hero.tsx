@@ -23,7 +23,6 @@ const Hero = () => {
         <p className="font-semibold">
               </p>
 
-              <div className="flex items-center gap-x-2">
               </p>
               <p className="font-semibold">
             </div>
