@@ -16,7 +16,6 @@ const NavBar = () => (
       <CustomButton
         />
         <CustomButton
-        btnType='button'
       />
       <CustomButton
         title='Sign in'
