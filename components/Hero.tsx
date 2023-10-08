@@ -27,7 +27,6 @@ const Hero = () => {
       session &&(
           <Image 
           className="rounded-full object-cover"
-          src={session?.user?.image as string} alt="user image" width={50} height={50} />
       )
   }
   {
