@@ -31,7 +31,6 @@ const Hero = () => {
   }
   {
       session && (
-  <FiLogOut className="text-2xl" />
           Logout
       </p> 
   </div>
