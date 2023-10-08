@@ -28,6 +28,5 @@ const Hero = () => {
 
         </div>
             <div className="flex items-center gap-x-2">
-                Where Music Is Headed Next
 };
 
