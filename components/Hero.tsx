@@ -25,7 +25,6 @@ const Hero = () => {
   {/* user image */}
   {
       session &&(
-          <Image 
           className="rounded-full object-cover"
       )
   }
