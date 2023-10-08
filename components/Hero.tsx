@@ -21,7 +21,25 @@ const Hero = () => {
         <CustomButton
         />
               </p>
-
+  </div>
+  {/* user image */}
+  {
+      session &&(
+          <Image 
+          className="rounded-full object-cover"
+          src={session?.user?.image as string} alt="user image" width={50} height={50} />
+      )
+  }
+  {
+      session && (
+          <div onClick={()=>signOut()} className="headerDiv" >
+  <FiLogOut className="text-2xl" />
+          Logout
+      </p> 
+  </div>
+      )
+  }
+  </Container>
               </p>
 
 
