@@ -31,7 +31,6 @@ const Hero = () => {
   }
   {
       session && (
-          <div onClick={()=>signOut()} className="headerDiv" >
   <FiLogOut className="text-2xl" />
           Logout
       </p> 
