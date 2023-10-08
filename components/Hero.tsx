@@ -27,6 +27,5 @@ const Hero = () => {
 
 
         </div>
-            <div className="flex items-center gap-x-2">
 };
 
