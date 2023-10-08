@@ -20,7 +20,6 @@ const Hero = () => {
 
         <CustomButton
         />
-        <p className="font-semibold">
               </p>
 
               </p>
