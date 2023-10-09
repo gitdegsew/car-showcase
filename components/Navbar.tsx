@@ -17,7 +17,6 @@ const NavBar = () => (
           <input
               type='text'
               placeholder='search for items'
-              className='flex-1 placeholder:text-sm    border-none outline-none'
            />
       </div>
       {/* Login/Register */}
