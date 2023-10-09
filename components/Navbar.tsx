@@ -8,7 +8,6 @@ const NavBar = () => (
           src='/logo.svg'
         />
       </Link>
-      <div className='bg-bodyColor h-20' >
       <Container className='h-full flex items-center space-x-1 justify-between md:justify-center'  >
           <Logo/>
       
