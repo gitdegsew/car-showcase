@@ -16,7 +16,6 @@ const NavBar = () => (
       <div className='w-full bg-white hidden border-[1px] md:flex items-center rounded-full gap-x-1 border-lightText/50 px-4 py-1.5 focus-within:border-orange-600' >
           <input
               type='text'
-              placeholder='search for items'
            />
       </div>
       {/* Login/Register */}
