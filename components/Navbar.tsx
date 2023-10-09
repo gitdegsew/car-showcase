@@ -31,7 +31,6 @@ const NavBar = () => (
 
 
       <CustomButton
-        />
         <CustomButton
       />
       <CustomButton
