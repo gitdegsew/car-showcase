@@ -21,7 +21,6 @@ const NavBar = () => (
       {/* Login/Register */}
       {
           !session &&(<div onClick={()=>signIn()} className='headerDiv' >
-          <AiOutlineUser className="text-2xl" />
               <p className='text-sm font-semibold ' >login/register</p>
           </div>)
       }
