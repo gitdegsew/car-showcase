@@ -14,7 +14,6 @@ const NavBar = () => (
       
       {/* Search Field */}
       <div className='w-full bg-white hidden border-[1px] md:flex items-center rounded-full gap-x-1 border-lightText/50 px-4 py-1.5 focus-within:border-orange-600' >
-          <FiSearch className="text-gray-500 group-focus-within:text-darkText duration-200" />
           <input
               type='text'
               placeholder='search for items'
