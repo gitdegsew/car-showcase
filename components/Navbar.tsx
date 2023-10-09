@@ -22,7 +22,6 @@ const NavBar = () => (
           </div>)
       }
       {/* Cart button */}
-      <div className='bg-black hover:bg-slate-950 rounded-full text-slate-100 hover:text-white flex items-center justify-center gap-x-1 px-3 py-1.5 border-[1px] border-black hover:border-orange-600 duration-200 relative' >
               0
 
           </span>
